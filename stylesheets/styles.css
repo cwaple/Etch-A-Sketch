@@ -1,0 +1,38 @@
+.gridSquare {
+	width: 20px;
+	height: 20px; 
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #879884; 
+	margin: 1px 2px; 
+	display: inline-block;
+	background-color: #6da760; 
+}
+
+.gridSquare:hover {
+	background-color: #5f925a;
+}
+
+#container { 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.gridSquareClicked {
+	background-color: #2c725e; 
+}
+
+#button { 
+	background-color: #90a790; 
+	width: 40px;
+	height: 30px;
+	margin: 5px 5px;  
+}
+
+#button:hover {
+	background-color: #879884; 
+}
