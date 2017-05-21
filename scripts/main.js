@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 
 	$('#button').click(function() { 
-
+		reset(); 
 	});
 }); 
 
@@ -23,9 +23,8 @@ function createGrid(size, remains) {
 		remains = remains - 1; 
 		createGrid(size, remains); 
 	}
-
-function reset(gridSize, gridSize) {
-	if
 }
 
+function reset() {
+	
 }
