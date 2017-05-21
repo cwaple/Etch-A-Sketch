@@ -3,14 +3,14 @@ gridSize = 16;
 $(document).ready(function() {
 	createGrid(gridSize, gridSize);
 
-	$('.gridSquare').click(function() {
-		$(this).toggleClass("gridSquareClicked");
+	$('.gridSquare').hover(function() {
+		$(this).addClass("gridSquareClicked");
 	});
 
 	$('#button').click(function() { 
 		gridSize = prompt("Please enter size", gridSize); 
 		if (gridSize !== null) {
-			$('div.gridSquare').remove(); 
+			$('#container').html(""); 
 			createGrid(gridSize, gridSize); 
 		}
 	});
