@@ -15,7 +15,7 @@
 
 #container { 
 	position: absolute;
-	top: 0;
+	top: 40px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -28,7 +28,7 @@
 
 #button { 
 	background-color: #90a790; 
-	width: 40px;
+	width: 60px;
 	height: 30px;
 	margin: 5px 5px;  
 }
